@@ -1,3 +1,8 @@
+/*UtilitY*/
+body{
+    font-family: 'Roboto', sans-serif;
+  }
+
 /*header*/
 header {
   height: 70px;
@@ -21,3 +26,34 @@ header {
     color: #FF8F00; 
     box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.1);
 }
+/*navbar*/
+.ms_aside {
+    font-family: 'Poppins', sans-serif;
+    width: 150px;
+    position: relative;
+    background-color: #051e34;
+    background-image: url(../img/sidebar-bg.png);
+}
+.ms_aside  i {
+    font-size: 1.4rem;
+    padding-right: 10px;
+}
+.ms_aside a {
+    color: white;
+}
+/*content*/
+.ms_content_main {
+    overflow: auto;
+    height: calc(100vh - 70px);
+    width: calc(100% - 150px);
+}
+
+.ms_top_main {
+    color: white;
+    background-color: #1b72e8;
+  }
+  
+  .ms_top_main span.badge {
+    background-color: rgba(0,0,0,0.3);
+    font-size: .8rem;
+  }
