@@ -29,7 +29,7 @@ header {
 /*navbar*/
 .ms_aside {
     font-family: 'Poppins', sans-serif;
-    width: 150px;
+    width: 50px;
     position: relative;
     background-color: #051e34;
     background-image: url(../img/sidebar-bg.png);
@@ -45,7 +45,7 @@ header {
 .ms_content_main {
     overflow: auto;
     height: calc(100vh - 70px);
-    width: calc(100% - 150px);
+    width: calc(100% - 50px);
 }
 
 .ms_top_main {
@@ -56,4 +56,16 @@ header {
   .ms_top_main span.badge {
     background-color: rgba(0,0,0,0.3);
     font-size: .8rem;
-  }
+}
+@media screen and (min-width:992px){
+    .ms_aside {
+        width: 150px;
+    }
+    .ms_content_main {
+        overflow: auto;
+        height: calc(100vh - 70px);
+        width: calc(100% - 150px);
+    }
+
+    
+}
