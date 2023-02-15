@@ -96,6 +96,12 @@ th,td {
     line-height: 25px;
     border-radius: 5px;
 }
+.ms_grafico p, .ms_grafico li, .ms_grafico a {
+  font-size: .9rem;
+}
+.ms_grafico img{
+    width: 700px;
+}
 /*responsive*/
 @media screen and (min-width: 660px){
     th:nth-child(2), 
