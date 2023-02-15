@@ -1,0 +1,23 @@
+/*header*/
+header {
+  height: 70px;
+  width: 100%;
+  background-color: #F8F9FA;
+}
+.ms_logo_sm{
+    width: 50px;
+}
+.ms_bg_header{
+    background-color: white;
+}
+.ms_action{
+    border: 2px solid #E5E5E5;
+    background-color: #E5E5E5;
+}
+.ms_li li:not(li:first-child) {
+    margin-left: 10px;
+}
+.ms_dropdown .bi-bell-fill{
+    color: #FF8F00; 
+    box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.1);
+}
