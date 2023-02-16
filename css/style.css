@@ -61,9 +61,6 @@ header {
     background-color: rgba(0,0,0,0.3);
     font-size: .8rem;
 }
-.ms_canvas.offcanvas.offcanvas-end {
-  width: 70vw;
-}
 
   th:nth-child(2), td:nth-child(2), th:nth-child(3),td:nth-child(3) {
     display: none;
