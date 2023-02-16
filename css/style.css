@@ -100,6 +100,10 @@ tr td:last-child span{
 .ms_grafico p, .ms_grafico li, .ms_grafico a {
   font-size: .9rem;
 }
+/*hover*/
+.ms_aside li:hover{
+  background-color: #828f96;
+}
 
 /*responsive*/
 @media screen and (min-width: 660px){
