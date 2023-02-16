@@ -51,24 +51,26 @@ header {
     height: calc(100vh - 70px);
     width: calc(100% - 70px);
 }
-
 .ms_top_main {
     color: white;
     background-color: #1b72e8;
   }
+.ms_order{
+  order:-2;
+}
   
 .ms_top_main span.badge {
     background-color: rgba(0,0,0,0.3);
     font-size: .8rem;
 }
-.ms_canvas.offcanvas.offcanvas-end {
-  width: 40vw;
+.ms_canvas .offcanvas .offcanvas-end {
+  width: 100%;
 }
 
 
-  th:nth-child(2), td:nth-child(2), th:nth-child(3),td:nth-child(3) {
+th:nth-child(2), td:nth-child(2), th:nth-child(3),td:nth-child(3) {
     display: none;
-  }
+}
   
 table th:first-child, td:first-child {
     text-align: left;
@@ -106,19 +108,19 @@ tr td:last-child span{
 }
 
 /*responsive*/
+@media screen and (min-width: 538px){
+  th:nth-child(3), 
+  td:nth-child(3) {
+  display: table-cell;
+  }
+}
 @media screen and (min-width: 660px){
     th:nth-child(2), 
     td:nth-child(2) {
     display: table-cell;
     }
-  }
-@media screen and (min-width: 538px){
-    th:nth-child(3), 
-    td:nth-child(3) {
-    display: table-cell;
-    }
-  }
-@media screen and (min-width:768pxpx){
+}
+@media screen and (min-width:768px){
   .ms_aside {
     width: 150px;
   }
@@ -126,6 +128,9 @@ tr td:last-child span{
     overflow: auto;
     height: calc(100vh - 70px);
     width: calc(100% - 150px);
+  }
+  .ms_order{
+    order:2;
   }
 }
 @media screen and (min-width:992px){
