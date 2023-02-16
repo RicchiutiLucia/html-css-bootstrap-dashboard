@@ -27,7 +27,6 @@ header {
 }
 .ms_dropdown .bi-bell-fill{
     color: #FF8F00; 
-    box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.1);
 }
 /*navbar*/
 .ms_aside {
@@ -58,7 +57,9 @@ header {
 .ms_order{
     order:-2;
 }
-  
+.offcanvas.offcanvas-end{
+  width: 100%;
+} 
 .ms_top_main span.badge {
     background-color: rgba(0,0,0,0.3);
     font-size: .8rem;
@@ -97,6 +98,12 @@ tr td:last-child span{
 .ms_aside li:hover{
   background-color: #828f96;
 }
+.table  tbody tr:hover{
+  background-color: #ececec;
+}
+.table tbody span:hover{
+  background-color: #ffca2c;
+}
 
 /*responsive*/
 @media screen and (min-width: 538px){
@@ -113,6 +120,12 @@ tr td:last-child span{
    
 }
 @media screen and (min-width:768px){
+  .ms_order{
+    order:2;
+    font-size: 0.8rem;
+  }
+}
+@media screen and (min-width:992px) {
   .ms_aside {
     width: 150px;
   }
@@ -121,7 +134,11 @@ tr td:last-child span{
     height: calc(100vh - 70px);
     width: calc(100% - 150px);
   }
-  .ms_order{
-    order:2;
+  .offcanvas.offcanvas-end{
+    width: 50%;
   }
+  .ms_order{
+    font-size: 1rem;
+  }
+
 }
