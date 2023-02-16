@@ -49,7 +49,7 @@ header {
 .ms_content_main {
     overflow: auto;
     height: calc(100vh - 70px);
-    width: calc(100% - 50px);
+    width: calc(100% - 70px);
 }
 
 .ms_top_main {
@@ -64,6 +64,7 @@ header {
 .ms_canvas.offcanvas.offcanvas-end {
   width: 40vw;
 }
+
 
   th:nth-child(2), td:nth-child(2), th:nth-child(3),td:nth-child(3) {
     display: none;
@@ -107,21 +108,31 @@ tr td:last-child span{
     display: table-cell;
     }
   }
-  @media screen and (min-width: 538px){
+@media screen and (min-width: 538px){
     th:nth-child(3), 
     td:nth-child(3) {
     display: table-cell;
     }
   }
+@media screen and (min-width:768pxpx){
+  .ms_aside {
+    width: 150px;
+  }
+  .ms_content_main {
+    overflow: auto;
+    height: calc(100vh - 70px);
+    width: calc(100% - 150px);
+  }
+}
 @media screen and (min-width:992px){
-    .ms_aside {
-      width: 150px;
-    }
-    .ms_content_main {
-      overflow: auto;
-      height: calc(100vh - 70px);
-      width: calc(100% - 150px);
-    }
-
+  .ms_aside {
+    width: 150px;
+  }
+  .ms_content_main {
+    overflow: auto;
+    height: calc(100vh - 70px);
+    width: calc(100% - 150px);
+  }
+   
     
 }
